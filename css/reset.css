@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Web Design developer : CWJ */
+body, input, select, textarea, button {font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';font-weight:normal;font-size:12px;letter-spacing:-1px;}
+body {line-height:1;}
+/* 여백 초기화*/
+html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote, p, b, address, pre, cite, form, fieldset, input, textarea, select, table, th, td, iframe, object, embed, blockquote, abbr, a, acronym, dfn, cite, article, aside, details, 
+figcaption, figure, footer, header, hgroup, menu, nav, section, applet, canvas, details, output, ruby, summary, time, mark, audio, video {margin:0; padding:0;}
+/* 제목 */
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal;}
+/* 테투리 */
+fieldset, img, abbr, acronym {border:0 none;}
+/* 리스트 */
+ol, ul {list-style:none;}
+/* 테이블 */
+table {border-collapse:collapse; border-spacing:0; border:0 none;}
+caption, th, td {font-weight:normal;}
+/* 텍스트 관련 */
+address, caption, strong, em, cite {font-weight:normal; font-style:normal;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+input, select, textarea, option, label, button {font-size:100%; font-weight:normal; box-sizing:border-box; outline-style:none;}
+mark {background-color:transparent;}
+/* 수직정렬 */
+img, a, input, select, textarea, label, button, span, em, strong, mark, acronym, abbr, ins {vertical-align:baseline;}
+/* 인용문 */
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+/* 수평선 */
+legend, caption, hr {display:none;}
+/* HTML5 요소 블록화 (구형 브라우저) */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+/* 앵커 */
+a {text-decoration:none;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
