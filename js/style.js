@@ -84,7 +84,7 @@ $(document).ready(function(){
 
       (function (global, $) {
 
-        var $menu     = $('header nav li.m'),
+        var $menu     = $('header nav li.m, .model1 .move.m'),
             $contents = $('.scroll'),
             $doc      = $('html, body');
         $(function () {
@@ -132,5 +132,9 @@ $(document).ready(function(){
         });
     */
     }(window, window.jQuery));
+
+    var wi = $(window).width() + " × " + $(window);
+    wi
+    console.log(wi)
 })
 
