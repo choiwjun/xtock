@@ -133,8 +133,26 @@ $(document).ready(function(){
     */
     }(window, window.jQuery));
 
-    var wi = $(window).width() + " × " + $(window);
-    wi
-    console.log(wi)
+
+
+    
+    var tab1 = $('#model3').offset();
+    var tab2 = $('#model4').offset();
+    var tab3 = $('#model5').offset();
+    var tab4 = $('#model6').offset();
+
+    $('.m1').click(function(){
+        $('html, body').animate({scrollTop:tab1.top-100}, 800)
+    })
+    $('.m2').click(function(){
+        $('html, body').animate({scrollTop:tab2.top-100}, 800)
+    })
+    $('.m3').click(function(){
+        $('html, body').animate({scrollTop:tab3.top-100}, 800)
+    })
+    $('.m4').click(function(){
+        $('html, body').animate({scrollTop:tab4.top-100}, 800)
+    })
+
 })
 
